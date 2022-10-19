@@ -34,7 +34,8 @@ Asteroid = Circle(400,200,20,fill=gradient('black','grey', start='right'))
 Star = Star(400,100,10,5,fill='yellow')
 Debris = Polygon(382,239,400,250,383,261,365,257, fill='grey')
 
-#Make the Obstacles In motion
+#Makes the Obstacles In motion
+#randrange makes the obstacles choose a random range of spawn on the Y axis
 Star.dx=14
 Asteroid.dx=10
 Debris.dx=16
