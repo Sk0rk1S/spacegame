@@ -1,4 +1,4 @@
-# Fill me in!
+#From my CMU academy 
 app.background = gradient('midnightBlue', 'navy', 'black', start='bottom')
 #Backround Of Space
 Star(20, 50, 5, 8, fill='gold', roundness=40)
